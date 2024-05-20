@@ -1,2 +1,4 @@
-package com.chretien.hellovosobjetschretien.service;public interface OrderService {
+package com.chretien.hellovosobjetschretien.service;
+
+public interface OrderService {
 }

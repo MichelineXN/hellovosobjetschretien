@@ -1,2 +1,4 @@
-package com.chretien.hellovosobjetschretien.Controller;public class CategoryController {
+package com.chretien.hellovosobjetschretien.Controller;
+
+public class CategoryController {
 }

@@ -1,2 +1,4 @@
-package com.chretien.hellovosobjetschretien.service;public interface PetService {
+package com.chretien.hellovosobjetschretien.service;
+
+public interface PetService {
 }

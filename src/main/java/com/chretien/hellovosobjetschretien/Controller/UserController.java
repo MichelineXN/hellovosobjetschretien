@@ -1,2 +1,4 @@
-package com.chretien.hellovosobjetschretien.Controller;public class UserController {
+package com.chretien.hellovosobjetschretien.Controller;
+
+public class UserController {
 }

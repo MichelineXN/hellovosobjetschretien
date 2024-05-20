@@ -1,2 +1,4 @@
-package com.chretien.hellovosobjetschretien.service;public interface OwnerService {
+package com.chretien.hellovosobjetschretien.service;
+
+public interface OwnerService {
 }

@@ -1,2 +1,4 @@
-package com.chretien.hellovosobjetschretien.service.Impl;public class UserServiceImpl {
+package com.chretien.hellovosobjetschretien.service.Impl;
+
+public class UserServiceImpl {
 }

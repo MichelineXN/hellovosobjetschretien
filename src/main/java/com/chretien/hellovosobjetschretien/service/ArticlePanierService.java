@@ -1,2 +1,4 @@
-package com.chretien.hellovosobjetschretien.service;public interface ArticlePanierService {
+package com.chretien.hellovosobjetschretien.service;
+
+public interface ArticlePanierService {
 }

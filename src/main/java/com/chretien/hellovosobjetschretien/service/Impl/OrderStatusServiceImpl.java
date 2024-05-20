@@ -1,2 +1,4 @@
-package com.chretien.hellovosobjetschretien.service.Impl;public class OrderStatusServiceImpl {
+package com.chretien.hellovosobjetschretien.service.Impl;
+
+public class OrderStatusServiceImpl {
 }
