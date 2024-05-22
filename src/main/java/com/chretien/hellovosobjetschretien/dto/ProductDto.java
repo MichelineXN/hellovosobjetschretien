@@ -8,7 +8,7 @@ public class ProductDto {
     private int stock;
     private String description;
     private BigDecimal price;
-    private String categorie ;
+    private String category ;
 
     public Long getId() {
         return id;
@@ -51,11 +51,11 @@ public class ProductDto {
     }
 
     public String getCategorie() {
-        return categorie;
+        return category;
     }
 
-    public void setCategorie(String categorie) {
-        this.categorie = categorie;
+    public void setCategory(String categorie) {
+        this.category = categorie;
     }
 
     public ProductDto(Long id, String name, int stock, String description, BigDecimal price, String categorie) {
@@ -64,7 +64,7 @@ public class ProductDto {
         this.stock = stock;
         this.description = description;
         this.price = price;
-        this.categorie = categorie;
+        this.category = categorie;
 
     }
 }

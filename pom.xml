@@ -85,6 +85,11 @@
             <artifactId>mysql</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mnode.ical4j</groupId>
+            <artifactId>ical4j</artifactId>
+            <version>4.0.0-beta7</version>
+        </dependency>
     </dependencies>
 
     <build>

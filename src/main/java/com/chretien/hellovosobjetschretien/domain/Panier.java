@@ -33,8 +33,6 @@ import java.util.Set;
             private double totalNet;   // Total après remises
 
 
-            @OneToMany(mappedBy = "panier", cascade = CascadeType.ALL, orphanRemoval = true)
-            private Set<ProductPanier> Product = new HashSet<>();
 
     public Panier() {
 
@@ -60,9 +58,7 @@ import java.util.Set;
                 return product;
             }
 
-            public void setProduct(Set<ProductPanier> product) {
-                Product = product;
-            }
+
 
             public void setProduct(String product) {
                 this.product = product;
@@ -157,7 +153,7 @@ import java.util.Set;
             }
 
             public Panier(Long id, String identifiantUtilisateur, String product, int montant, String quantite, String commandeNum, int paiement, Date datePaiement, String typePaiement, String statusPaiement,
-                          LocalDateTime dateMiseAJour, double totalBrut, double remiseTotale, double totalNet, Set<ProductPanier> product1) {
+                          LocalDateTime dateMiseAJour, double totalBrut, double remiseTotale, double totalNet) {
                 this.id = id;
                 this.identifiantUtilisateur = identifiantUtilisateur;
                 this.product = product;
@@ -172,7 +168,6 @@ import java.util.Set;
                 this.totalBrut = totalBrut;
                 this.remiseTotale = remiseTotale;
                 this.totalNet = totalNet;
-                Product = product1;
 
 
             }

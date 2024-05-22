@@ -8,3 +8,21 @@ services:
       - 'MYSQL_USER=myuser'
     ports:
       - '3306'
+
+
+      - 'app:
+        image: openjdk:20
+        build:
+          context: .
+          dockerfile: Dockerfile
+        environment:
+          SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/mydatabase
+          SPRING_DATASOURCE_USERNAME: myuser
+          SPRING_DATASOURCE_PASSWORD: secret
+        depends_on:
+          - mysql
+        ports:
+          - '8080:8080'
+
+    volumes:
+      mysql-data:

@@ -1,4 +1,5 @@
 package com.chretien.hellovosobjetschretien.service;
 
-public interface RoleService {
+public interface RoleService
+{
 }
